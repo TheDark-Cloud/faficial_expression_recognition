@@ -1,0 +1,9 @@
+model_name: FacialExpressionRecognition
+
+image:
+  image_size: [128, 128]
+  batch_size: 32
+  seed: 42
+
+selective_search:
+  max_regions: 5
